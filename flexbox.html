@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<style>
+    .Container {
+
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+    }
+
+    .item {
+        height: 10rem;
+        width: 30%;
+        margin: 10px;
+        border: 2px solid rebeccapurple;
+
+    }
+    
+    #item2 {
+
+        box-shadow: inset 0.2rem 0.2rem 0.2rem grey, 0.5rem 0.5rem 0.5rem grey;
+    }
+
+    #item3 {
+        
+        height: 50rem;
+        margin: 50px 0;
+    }
+
+    .logo {
+        width: 6rem;
+    }
+
+    h1 {
+        margin: 0px;
+    }
+
+    h3 {
+        margin: 0px;
+        width: 10rem;
+        font-family: 'Maconda', cursive;
+        text-align: center;
+    }
+
+    header {
+        font-size: 3rem;
+    }
+    .anime{
+        display: flex;
+        background-color:aliceblue;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .new_anime{
+        background-color: greenyellow;
+        width: 50%;
+       
+        text-align: center;
+        animation-name: maddy;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+       
+    }
+
+    .animation {
+        display: flex;
+        background-color: aquamarine;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        animation-name: maddy;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        transition: all;
+        
+    }
+
+    @keyframes maddy {
+        from {
+            width: 20%;
+
+        }
+
+        to {
+            width: 50%;
+        }
+
+    }
+    .animation:hover{
+        background-color: thistle;
+        border-radius: 6rem;
+        height: 4rem;
+        width:60%;
+        font-size:1.5rem;
+        
+        transition-duration: 3s;
+    }
+    
+       
+    
+</style>
+
+<body>
+    <header>FlexBox</header>
+    <div class="Container">
+        <div class="item" id="item1">
+            <p>
+                lower Lorem ipsum dolor sit amet, consectetur adipisicing elit. mas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam odit, amet hic, minima excepturi repellat voluptatum ipsa unde, fugit necessitatibus adipisci voluptatibus magni.</p>
+        </div>
+        <div class="item" id="item2">
+            <center>
+                <img class="logo" src="style2\m square.jpeg" alt="m_square">
+
+                <h1>M_SQUARE</h1>
+                <h3>TRAVELS
+                </h3>
+            </center>
+        </div>
+        <div class="item" id="item3">right</div>
+    </div>
+    <hr>
+    <div class="anime">
+        <div class="animation">
+            hi this is madhav mishra
+        </div>
+        <div class="new_anime">
+            hello everyone
+        </div>
+    </div>
+    
+
+
+
+
+
+</body>
+
+</html>
