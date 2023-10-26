@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-areas: 
+        'logo logo logo logo navbar'
+        'welcome welcome welcome welcome welcome'
+        'content content content content content';
+        
+        background-color: bisque;
+        
+    }
+    img{
+        height: 150px;
+    }
+        
+    
+    #logo {
+        grid-area: logo;
+    }
+
+    #navbar {
+        grid-area: navbar;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }  
+    #navbar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #navbar li{
+    list-style: none;
+    
+    
+    }
+    #navbar li a{
+    color: aquamarine;
+    font-family: Maconda, cursive;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 5rem;
+    }    
+    
+    #welcome {
+        grid-area: welcome;
+        
+        text-align: center;
+    }
+
+    #content {
+        grid-area: content;
+        text-align: center;
+        
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item" id="logo"><img src="style2/m square.jpeg" alt="logo"></div>
+        <div class="item" id="navbar">
+            <ul>
+                <li class="box"><a href="#">Home</a></li>
+                <li class="box"><a href="#">Services</a></li>
+                <li class="box"><a href="#">About Us</a></li>
+                <li class="box"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="item" id="welcome">Welcome to my website</div>
+        <div class="item" id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            eveniet doloribus voluptate nam repudiandae, explicabo nobis quas ipsam deleniti nemo? Libero, dolores.
+        </div>
+    </div>
+</body>
+
+</html>
