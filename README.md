@@ -1,4 +1,4 @@
-# Laerning Frontend
+# Learning Frontend
 
 Front-end web development is a rapidly growing field with high demand for skilled developers. Front-end developers are responsible for the look, feel, and functionality of the websites and web applications that we use every day. They play a vital role in creating user-friendly and engaging experiences for users.
 
