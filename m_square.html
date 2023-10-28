@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=icon href="style2/m square.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    
+    <title>M_Square PHOTOS</title>
+</head>
+<style>
+    body {
+        font-family: 'DynaPuff', cursive;
+        margin: 0;
+    }
+
+    
+
+    #Home {
+        color: aliceblue;
+        height: 390px;
+
+        background: url('style2/camera-1130731.jpg')no-repeat center center/cover;
+        background-size: 100%;
+        padding:   50px  0;
+        z-index: 0;
+
+    }
+#products{
+    text-align: center;
+    color: chocolate;
+    z-index: 0;
+}
+.Products{
+    display: flex;
+}
+.box{ 
+    border: 2px solid chocolate;
+    padding: 34px;
+    width: 30%;
+    margin: 20px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 20px;
+    
+}
+
+.box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+
+    .phase1 {
+        background:white;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        opacity: 0.7;
+
+
+    }
+
+    .container {
+        text-align: center;
+        padding: 0 25%;
+        margin: 0 50px 0 0;
+
+
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer a{
+        margin: 10px;
+        color: #d2691e;
+    }
+    .btn {
+	box-shadow:inset 0px 0px 0px 2px #d2691e ;
+	background:linear-gradient(to bottom, #d2691e 5%, #f59653 100%);
+	background-color:#d2691e;
+	border-radius:10px;
+	border:1px solid #b05b1f;
+	display:inline-block;
+	cursor:pointer;
+	color:aliceblue;
+	font-family:'DynaPuff', cursive;
+	font-size:18px;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a35014 ;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #b05b1f 5%, #d2691e 100%);
+	background-color:#b05b1f ;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.btn2 {
+	box-shadow:inset 0px 0px 0px 2px whitesmoke ;
+	background:linear-gradient(to bottom, whitesmoke 5%, #e9f0f6 100%);
+	background-color:whitesmoke;
+	border-radius:10px;
+	border:1px solid #ced3d7;
+	display:inline-block;
+	cursor:pointer;
+	color:chocolate;
+	font-family:'DynaPuff', cursive;
+	font-size:18px;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d3e0eb ;
+}
+.btn2:hover {
+	background:linear-gradient(to bottom, whitesmoke 5%, #ced3d7 100%);
+	background-color:whitesmoke ;
+}
+.btn2:active {
+	position:relative;
+	top:1px;
+}
+    #prod{
+        font-size: 35px;
+    }
+
+    #item3 {
+        text-align: center;
+        margin:50px;
+        font-size: 35px;
+        
+    }
+    #item1{
+        display: flex;
+    }
+
+
+
+    #item2 {
+        margin: 0;
+        padding: 5px 0;
+    }
+
+    #item2 ul {
+        position: relative;
+        display: flex;
+        text-align: left;
+
+    }
+
+    #item2 li {
+        list-style: none;
+        margin: auto 12px;
+
+    }
+
+    #item2 li a {
+        color:chocolate;
+        text-decoration: none;
+        font-style: initial;
+        font-size: 18px
+    }
+
+    #item2 li a:hover {
+        color:#156081e0;
+        font-size:x-large;
+    }
+    
+    #p1 {
+        color: #156081e0;
+        font-size: 45px;
+        padding: 5px 0px;
+        text-align: center;
+        margin: 0;
+    }
+
+
+#feedback{
+    color: aliceblue;
+    position: relative;
+    
+    background-size: 100%;
+    background:url(https://st.depositphotos.com/2097531/2145/i/450/depositphotos_21458013-stock-photo-vintage-theatre-spot-light-on.jpg)  no-repeat center center/cover;
+    z-index: 0;
+}
+#feed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#feed input{
+    width: 100%;
+    padding: 2px;
+    border-radius: 9px;
+    font-size: 16px;
+}
+#feed textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 9px;
+    font-size: 18px;
+} 
+
+#feed form{
+    width: 35%;
+}
+
+#feed label{
+   font-size: 18px;
+   
+
+}
+.copy{
+    color: #156081e0;
+}
+
+
+</style>
+
+<body>
+    <div class="phase1">
+
+        <div class="item" id="item1">
+            <img src="style2/m square.jpeg" alt="m square.jpeg" style="height:75px;">
+            <p id="p1">PHOTOS</p>
+        </div>
+
+
+        <div class="item" id="item2">
+            <ul>
+                <li class="icons"><a href="#Home" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                  </svg> Home</a></li>
+                <li class="icons"><a href="#products"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
+                    <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+                  </svg> Products</a></li>
+                
+                <li class="icons"><a href="#feedback"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg> Feedback</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <section id="Home">
+        
+        <div class="container">
+
+
+            <div class="item" id="item3">
+                Welcome to<br>M_Square <br>PHOTOS
+            </div>
+
+            <div class="item" id="item4">Lorem Lorem ipsum dolor sit amet, conseckhjgjbhtetur adipisicing elit. Provident,
+                laboriosam? Esse et sunt unde libero. Ex, delectus necessitatibus? Hic mollitia vitae aut reprehenderit
+                beatae vero atque. Qui temporibus ipsam facerghghjgjgjkkje, tenetur obcaecati hic velit sapiente?ipsum dolor sit
+                amet consectetur adipisicing elit. Aliquam, soluta autem guqui vero nobis sit magnam aperiam voluptates,
+                non veritatis  Lorem ipsum dolor sit amet consectetur adivhffghfjpisicing .</div>
+
+        </div>
+        
+    </section>
+    <section id="products">
+        <div id="prod">
+            Our Products
+        </div>
+        <div class="Products">
+        <div class="box">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <h3 class="products">Camera</h3>
+            <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae
+                quidem ab asperiores ex, aut fugit labore veritatis facere?
+                sint delectus ab dolorum nam. Debitis facere.</p>
+                <a href="cam.html" class="btn">Book Now</a>
+        </div>
+        <div class="box">
+            <img src="data:image/jpeg;base64,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"
+                alt="tripod.png">
+            <h3 class="products">Tripod</h3>
+            <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab
+                dignissimos vero? Unde numquam odit repudiandae perferendis nisidffghh hgdfcghff ghfdrdhg hgftygjhg .
+</p>
+                <a href="#" class="btn">Book Now</a>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTAobDB_dsq17qkaCTmBTqgXBGO9A1BzsmKw&usqp=CAU" alt="Frame.png">
+            <h3 class="products">Frames</h3>
+            <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima
+                at explicabo. Eestias nesciunt quas! Quis.
+                sint delectus ab dolom. Debitis bbbbfh bgtdx fhtrddum.</p>
+                <a href="#" class="btn" >Book Now</a>
+        </div>
+    </div>
+    </section>
+    <section id="feedback">
+        <h1 style="font-size: 35px; text-align: center;">Feedback</h1>
+        <div id="feed">
+            <form action="">
+                <div class="forms">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="forms">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="forms">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="forms">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="25" rows="7.5"></textarea>
+                </div>
+                <a href="#" class="btn2">Submit</a>
+                
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+  
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        
+        <p class="copy">© Madhav Mishra</p>
+      </div>
+</body>
+
+</html>
